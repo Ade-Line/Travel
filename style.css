@@ -1,0 +1,90 @@
+/* DOCUMENT INFORMATION
+    -Document : Agence de Voyage thème
+    -Version : 1.0.0
+    -Auteur : Adeline 
+*/
+
+/* COLOR
+    -defaut body text #000
+    -h1        
+    -h2
+    -h3
+    
+    -button
+    -button:hover
+
+    -icon         
+    
+    -border
+*/
+
+/* FONTS 
+    -default : Lora
+    -subtitle
+    */
+/* CSS DIRECTORY
+    1. =GLOBAL
+    2. =HEADER
+    3. =PRODUITS    
+ */
+
+/* GLOBAL
+ ========================== */
+
+header,
+section {
+    font-family: Lora, 'Aria', sans-serif;
+}
+
+body {
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+/* NAVBAR */
+
+.home-title {
+    position: absolute;
+    top: 30%;
+}
+
+.navbar-nav {
+    padding-left: 40px;
+}
+
+.navbar a {
+    color: rgba(255, 255, 255, 0.836) !important;
+}
+
+.container a {
+    font-size: 30px;
+}
+
+/* CAROUSEL */
+
+/* OFFRES DE VOYAGE */
+
+.card {
+    border-radius: 12px;
+    margin: 20px;
+
+}
+
+.card img {
+    height: 150px;
+}
+
+.container {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+.btn {
+    font-size: 16px !important;
+}
