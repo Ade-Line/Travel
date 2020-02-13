@@ -32,7 +32,8 @@
  ========================== */
 
 header,
-section {
+section,
+h1 {
     font-family: Lora, 'Aria', sans-serif;
 }
 
@@ -46,31 +47,31 @@ body {
 
 /* NAVBAR */
 
-.home-title {
-    position: absolute;
-    top: 30%;
+.container a {
+    font-size: 30px;
+    padding-left: 50px;
 }
 
 .navbar-nav {
-    padding-left: 40px;
+    padding-left: 70PX;
 }
 
 .navbar a {
     color: rgba(255, 255, 255, 0.836) !important;
 }
 
-.container a {
-    font-size: 30px;
-}
+
 
 /* CAROUSEL */
 
-/* OFFRES DE VOYAGE */
+/* IDEES DE VOYAGE */
+
+h1 {
+    margin: 15px;
+}
 
 .card {
-    border-radius: 12px;
     margin: 20px;
-
 }
 
 .card img {
