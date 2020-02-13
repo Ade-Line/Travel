@@ -60,9 +60,8 @@ body {
     color: rgba(255, 255, 255, 0.836) !important;
 }
 
-
-
 /* CAROUSEL */
+
 
 /* IDEES DE VOYAGE */
 
@@ -86,7 +85,32 @@ h1 {
     font-size: 25px;
 }
 
+/* <!-- BANDEAU PUB --> */
 
+.badge{
+   position: absolute;
+   height: 10%;
+   transform: rotate(-35deg);
+   top: 100px;
+   text-align: center;
+   font-size: 25px;
+}
+
+.badge1{
+    position: absolute;
+    right: 0;
+    height: 10%;
+    transform: rotate(35deg);
+    top: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+ }
+
+.bandeau img{
+    width: 100%;
+    height: 40vh;
+}
 
 /* OFFRES DE VOYAGE */
 
