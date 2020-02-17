@@ -58,6 +58,7 @@ body {
 
 .navbar a {
     color: rgba(255, 255, 255, 0.836) !important;
+    scroll-behavior: smooth;
 }
 
 /* CAROUSEL */
