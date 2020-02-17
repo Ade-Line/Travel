@@ -31,6 +31,13 @@
 /* GLOBAL
  ========================== */
 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 header,
 section,
 h1, h2, p {
@@ -47,6 +54,10 @@ body {
 
 /* NAVBAR */
 
+.container{
+    scroll-behavior: smooth;
+}
+
 .container a {
     font-size: 30px;
     padding-left: 50px;
@@ -58,7 +69,7 @@ body {
 
 .navbar a {
     color: rgba(255, 255, 255, 0.836) !important;
-    scroll-behavior: smooth;
+    
 }
 
 /* CAROUSEL */
